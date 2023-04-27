@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,600&family=Kanit:ital,wght@1,600&family=Righteous&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<style>
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: row;
+  width: 3rem;
+  height: 3rem;
+  transition: .5s ease;
+  backface-visibility: hidden;
+
+}
+
+.linksmenu > a {
+  opacity: 1;
+  display: none;
+  width: 50px;
+  height: 50px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  
+}
+
+.linksmenu:hover a {
+ display: block; 
+
+
+
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(7, 6, 6); 
+    border-radius: 10px;
+  }
+   
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgb(70, 0, 102); 
+    border-radius: 10px;
+  }
+  
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #3e00b1; 
+  }
+ 
+</style>
+<body>
+  
+    <main>
+    
+    
+      
+  <div class="linksmenu">
+        <p>Menu:</p>
+        <a class="container" href="destrezas.html"> <img src="img/alineacion-de-graficos.png" alt="Destrezas" class="image"></a>
+        <a class="container" href="/proyectos.html"> <img src="img/comprobacion-de-lista.png" alt="Proyectos terminados" class="image"></a>
+        <a class="container" href="conocimientos.html"> <img src="img/codigo-de-la-computadora-portatil.png" alt="Conocimientos" class="image"></a>
+        <a class="container" href="index.html"> <img src="img/usuario.png" alt="Home" class="image"></a>
+
+      
+      </div>
+    <section class="flex-container">
+         <h1 class="titulo" >Hola! Soy Jonathan.
+
+        </h1> 
+
+            
+         <h1>Soy un entusiasta del desarrollo tecnologico en todos sus ambitos, me dediqué al diseño y creacion de videojuegos desde un punto de vista artistico y de guión, sin embargo quise incursionar en otros ambitos creativos y de tecnología</h1>
+         <h2>Actualmente dedico la mayor parte de mi tiempo en aprender sobre todo el desarrollo web, en Html, JS y CSS, proximamente incursionando en otros lenguajes y ambitos del desarrollo a través de código</h2>
+
+         <h3> 
+         
+         
+         
+         <div><h1 style="font-size: 2.6rem;">Links a mis redes sociales:
+            <a class="container" href="https://twitter.com" target="_blank"><img id="logo twitter" height="40px" width="40px" src="img/gorjeo.png" alt="twitter" class="image" style="width: 50px;"></a>
+            <a class="container" href="https://instagram.com" target="_blank"><img id="logo instagram" height="40px" width="40px" src="img/logotipo-de-instagram.png" alt="instagram" class="image" style="width: 50px;"></a>
+            <a class="container" href="https://www.linkedin.com" target="_blank"><img id="logo linkedin" height="40px" width="40px" src="img/linkedin (1).png" alt="linkedin" class="image" style="width: 50px;"></a>
+            <a class="container" href="https://facebook.com" target="_blank"><img id="logo facebook" height="40px" width="40px" src="img/facebook (1).png" alt="facebook" class="image" style="width: 50px;"></a>
+           <a class="container" href="https://api.whatsapp.com/send?phone=0123456789&text=Hola, Necesito mas informacion!"><img src="img/whatsapp.png" height="40px" width="40px" alt="whatsapp" class="image" style="width: 50px;"></a>
+        </h1>
+        
+        </div>
+            
+
+       
+    </section>
+   
+  </main>
+  
+</body>
+<footer>
+   <h1 style="text-align: center;color: #ffffff;">Copyright © 2023 Todos los Derechos reservados.</h1>
+    <h2 style="text-align: center;"><a class="container" href="https://github.com/Jonstradamus" target="_blank"><img id="logo github" height="40px" width="40px" src="img/GitHub_Logo_White.png" alt="Github" class="image" style="width: 60px;"></a>
+    <a class="container" href="https://discord.gg/2sXvCFyVVh" target="_blank"><img id="logo Discord" height="40px" width="40px" src="img/icons8-discord-96.png" alt="Github" class="image" style="width: 60px;"></a></h2>
+   
+</footer>
+</html>

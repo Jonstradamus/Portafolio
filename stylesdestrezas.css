@@ -1,0 +1,199 @@
+body {
+    
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Righteous', cursive;
+}
+
+
+
+.caja1 {
+    height: 200px;
+    width: 700px;
+    border-radius: 2%;
+    border: 10px;
+    margin: 5px;
+    line-height: 120px;
+    background-color: rgba(247, 247, 247,0);
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Righteous', cursive;
+    
+
+}
+.caja {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  height: auto;
+  padding: 10px;
+  border-radius: 5rem;
+  display: flex;
+  background-color: rgba(159, 159, 185, 0.7);
+  text-align: center;
+  font-family: 'Cabin', sans-serif;
+  font-family: 'Kanit', sans-serif;
+  font-family: 'Righteous', cursive;
+}
+
+.linksmenu{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  background-color:rgba(99, 79, 179, 0.7);
+  height: 60px;
+  width: 95px;
+  color:rgb(0, 0, 0);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border-radius:5rem;
+  align-items: center;
+  margin-right: 0.5rem;
+  transition: ease-in 0.3s;
+  box-shadow: 8px  12px rgba(0, 0, 0, 0.7);
+  
+}
+@keyframes slidein {
+  from {background-position: top;background-size:3000px; }
+  to {background-position: -100px 0px;background-size:2700px;}
+  
+  }
+@keyframes Titulo {
+  0% {top: 0px;}
+  50% {top: 4px;}
+  100% {top: 0px;}
+}
+.titulo {
+  
+  animation-name: Titulo;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  position: relative;
+  animation: Titulo 3s infinite;
+
+}
+.linksmenu:hover{
+  display: flex;
+flex-direction: column;
+background-color:rgba(255, 255, 255,0.5);
+height: 280px;
+width: 95px;
+color:rgb(0, 0, 0);
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+border-radius:5rem;
+align-items: center;
+margin-right: 0.5rem;
+box-shadow: 8px  12px rgba(0, 0, 0, 0.7);
+
+
+}
+
+.linksmenu:hover > a {
+  display: block; 
+ 
+ 
+ 
+ }
+
+
+
+.flex-container{
+  
+    background:rgba(230, 220, 220, 0.5);
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    height: auto;
+    border-radius: 3%;
+    font-family: 'Cabin', sans-serif;
+font-family: 'Kanit', sans-serif;
+font-family: 'Righteous', cursive;
+box-shadow: 8px 12px rgba(0, 0, 0, 0.6);
+
+}
+
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:200');
+
+body  {
+    background-image: url(img/v675-taus-34c-technologyinterface.jpg);
+  background-size:cover;
+        -webkit-animation: slidein 100s;
+        animation: slidein 100s;
+
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+
+        -webkit-animation-direction: alternate;
+        animation-direction: alternate;              
+}
+
+
+@-webkit-keyframes slidein {
+from {background-position: top; background-size:3000px; }
+to {background-position: -100px 0px;background-size:2750px;}
+}
+
+@keyframes slidein {
+from {background-position: top;background-size:3000px; }
+to {background-position: -100px 0px;background-size:2750px;}
+
+}
+
+
+
+.center
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(75, 75, 250, 0.3);
+  border-radius: 3px;
+}
+.center h1{
+  text-align:center;
+  color:white;
+  font-family: 'Source Code Pro', monospace;
+  text-transform:uppercase;
+}
+
+.titulo{
+  background-color: rgba(99, 79, 179, 0.7);
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 10px;
+width: 250px;
+height: 60px ;
+border-radius: 5rem;
+box-shadow: 5px 10px rgba(6, 6, 6, 0.7);
+
+
+
+
+
+}
+
+
+  
